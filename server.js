@@ -22,7 +22,7 @@ app.use(express.static("public"));
 
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
-mongoose.connect("mongodb://localhost/eltiempoDB", {
+mongoose.connect("mongodb://heroku_f59nkcd9:nbm4h6tm2j89v72hr1ve704ou6@ds135966.mlab.com:35966/heroku_f59nkcd9", {
   useMongoClient: true
 });
 
